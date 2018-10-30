@@ -78,4 +78,11 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  - type: git
+    repo: https://github.com/jr-november/jr-november.github.io.git
+    branch: master
+    message:
+  - type: git
+    repo: https://gitee.com/jr-november/jr-november.git
+    branch: master
+    message:
